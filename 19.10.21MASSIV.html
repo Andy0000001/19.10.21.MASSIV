@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+        //задание 
+
+        var arr = new Array(10);
+        for (i = 0; i < arr.length; i++)// когда просто перебираем эллименты массива подчти всегда это пишется вот так 
+            arr[i] = Math.round(Math.random() * 10); // рандомные числа от 1 до 10
+
+        // задача 1 вывод массифа
+
+        function showArr(givenArr){
+            alert(givenArr);
+        }
+        showArr(arr);
+
+
+        //задача 2   функция вывод только четные эллементы
+        
+       // function evenEl(givenArr){
+         //   let str = ""; //создали что бы было куда записывать
+           // for (i = 0; i < arr.length; i++)
+             //   if(givenArr[i] % 2 == 0)
+               // str += givenArr[i] + " ";
+            //alert(str);
+        //}
+        //evenEl(arr);
+    </script>
+
+</body>
+
+</html>
